@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Weather App - Free Code Camp Project</title>
+  
+  
+  
+      <style>
+      /* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
+      body {
+  text-align: center;
+  background-color: beige;
+  font-family: gotham-black, sans-serif;
+  font-size: 3em;
+  padding: 30px;
+  
+ 
+ 
+}
+
+h1 {
+  color: orange;
+
+  
+  
+}
+
+img {
+  background-color: orange;
+  border-radius: 100px;
+  padding: 10px;
+  box-shadow: 1px 3px 15px;
+  border: solid;
+}
+
+
+button {
+  padding: 15px;
+  border-radius: 5px;
+  font-family: gotham-black, sans-serif;
+  box-shadow: 1px 3px 15px;
+  border: solid black;
+  margin-top: 50px;
+}
+
+@media screen and (max-width:745px){
+  body{
+    font-size: 2em;
+  }
+  button {
+    margin-top: 30px;
+    
+  }
+}
+
+
+@media screen and (max-width:438px){
+  body{
+    font-size: 1em;
+  }
+  button {
+    padding: 5px;
+    margin-top: 15px;
+  }
+}
+    </style>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
+</head>
+
+<body>
+  <body>
+  
+  <h1> Your Weather Information </h1>
+  <hr>
+  <p>It is currently <span id=temperatureSpan></span>°  <span id="weatherunits">F</span> in <span id="mycity"></span>. 
+  
+  <div id=imageicon> </div>
+  <button id="degreeType" class="" target="_blank"> CHANGE UNITS</button> </p> 
+  
+  
+  
+</body>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>

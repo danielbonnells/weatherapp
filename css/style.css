@@ -1,0 +1,56 @@
+body {
+  text-align: center;
+  background-color: beige;
+  font-family: gotham-black, sans-serif;
+  font-size: 3em;
+  padding: 30px;
+  
+ 
+ 
+}
+
+h1 {
+  color: orange;
+
+  
+  
+}
+
+img {
+  background-color: orange;
+  border-radius: 100px;
+  padding: 10px;
+  box-shadow: 1px 3px 15px;
+  border: solid;
+}
+
+
+button {
+  padding: 15px;
+  border-radius: 5px;
+  font-family: gotham-black, sans-serif;
+  box-shadow: 1px 3px 15px;
+  border: solid black;
+  margin-top: 50px;
+}
+
+@media screen and (max-width:745px){
+  body{
+    font-size: 2em;
+  }
+  button {
+    margin-top: 30px;
+    
+  }
+}
+
+
+@media screen and (max-width:438px){
+  body{
+    font-size: 1em;
+  }
+  button {
+    padding: 5px;
+    margin-top: 15px;
+  }
+}
